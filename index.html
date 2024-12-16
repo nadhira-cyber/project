@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Judul halaman</title>
+</head>
+<style>
+    .body{
+      width: 100%;
+    }
+  .kootak {
+    width: 1400px;
+    height: 600px;
+    margin-left:50px;
+    background-color: pink;
+    border-radius:20px ;
+   margin-bottom: -10px;
+  }
+.bulat {
+    width: 70px; 
+    height: 50px; 
+    background-color: white; 
+    border-radius: 50%;
+    margin-left:100px;
+   transform: translateY(50px);
+   }
+.garis {
+width: 700px; 
+height: 5px; 
+background-color: white; 
+border-radius: 20px; 
+margin-left: 270px;
+margin-bottom: 20px;
+}
+  .navbar{
+width:1000px; 
+height: 25px; 
+background-color: white;
+padding: 10px;
+border-radius: 20px; 
+margin-left: 270px;
+margin-top: -2px;
+z-index: 1000px;
+}
+.navbar a{
+  font-size: bold;
+  text-size:300px;
+  color:#fbccca;
+padding: 83px;
+margin-left: 2px;
+padding-top: 100px;
+margin-top: -100px;
+vertical-align:sub;
+}
+.textq {
+      font-size: 110px;
+      font-weight: bold;
+      color: white;
+      text-align: left;
+      margin-top: 80px;
+      margin-left:45px;
+    }
+    .sub {
+      color: white;
+      text-align: right;
+      font-size: 35px;
+      padding: 20px;
+      margin-top: -300px;
+      margin-right: 50px;
+    }
+    
+     .poto{
+         width:700px;
+         height: 500px; 
+         margin-top:200px;
+         margin-left:50px;
+         border-radius:25px;
+         border:9px solid pink;
+     }
+     
+     .nol{
+         margin-top:-490px;
+         margin-right:600px;
+         margin-left: 100px;
+     }
+      .satu {
+    background: pink;
+    padding: 30px;
+    height:25px;
+    width:470px;
+    border-radius: 30px;
+    margin-left:800px;
+    text-align:center;
+    color:white;
+}
+   .dua {
+    background: white;
+    border-radius:10px;
+    border:10px solid pink;
+    padding: 30px;
+    height:10px;
+    width:450px;
+    border-radius: 30px;
+    margin-left:800px;
+    text-align:center;
+    color:pink;
+    font-size:20px;
+}
+     .container{
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+      width: 1600px;
+      height: 4000px;
+      background-color: white;
+      margin-top: 100px;
+      margin-left: 15px;
+       }
+       .container h1{
+           color: #fbccca;  
+           font-size:50px;
+       }
+       .container p{
+           color: #fbccca;
+           font-size:50px;
+           text-align:left;
+       }
+          .text{
+       font-size: 16px;
+         color: #fbccca;
+         margin-left: 100px;
+       
+       }
+      .bagian{
+      width: 4200px;
+      height: 640px;
+      background-color: #fbccca;
+      margin-right: 190px;
+      border-radius: 17px;
+      
+      }
+      .bagian h1{
+          color: white;
+          margin-left: 50px;
+          margin-top: 10px;
+          padding: 20px;
+       }
+       
+      .salma{
+          color: white;
+          margin-top: 0px;
+          margin-left: 50px;
+      } 
+          .lonjong1{
+          width: 600px;
+          height: 100px;
+          background-color: white;
+          margin-left: 50px;
+          margin-top: -40px;
+          border-radius: 20px;
+       }
+      .lonjong1 p{
+          color: #fbccca;
+          margin-top: 100px;
+          font-size: 20px;
+          padding: 20px;
+       } 
+       .Answer{
+          color: white;
+          margin-left: 50px;
+          
+          
+      } 
+     .lonjong2{
+          width: 600px;
+          height: 200px;
+          background-color: white;
+          margin-right: 210px;
+          margin-left: 50px;
+          margin-right: 100px;
+          border-radius: 10px;
+          
+       }
+   .lonjong2 p{
+       color: #fbccca;
+       font-size: 30px;
+       margin-top: 10px;
+       padding: 20pxs;
+       
+   }
+  .kontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffeef2;
+    padding: 120px;
+    width:1020px;
+    height:300px;
+    border-radius: 20px;
+    gap: 20px;
+    margin-top:-3300px;
+    margin-left:100px;
+}
+
+.containerr {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 5px; 
+  padding: 20px;
+  background-color:white ;
+  width:1200px;
+  height:340px;
+  border-radius:20px;
+}
+.header {
+background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink ;
+    padding: -6px 80px;
+    height:50px;
+    border-radius: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    width: 80%;
+    margin-top:-100px;
+}
+.fontcolor{
+    color:white;
+    font-size:25px;
+    font-style:bold;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+
+.profile-card {
+    position: relative;
+    background-color: pink;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+    height: 430px;
+}
+
+
+.profile-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right:190px;
+}
+
+
+.profile-card .name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: pink;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+
+
+.kotak{
+    width: 20px;
+    height: 20px;
+}
+        .containerr {
+  display: flex;
+  
+  gap: 100px; 
+  padding: 20px;
+  background-color: pink;
+  margin-top:100px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.image-item {
+  flex: 1; 
+  max-width: 100%; 
+  height: 250px;
+  object-fit: cover;
+  margin-left:10px;
+  margin-top:-60px;
+}
+
+    .textt {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -60px; /* Atur margin negatif untuk naik */
+  text-align: center; /* Jika ingin teks di tengah */
+  flex: 1; /* Agar menyesuaikan dengan ruang di containerr */
+  color:white;
+  margin-left:10px;
+  
+}
+    .kotakk {
+      width: 1200px;
+      height: 525px;
+      background-color: pink;
+      border-radius: 20px;
+      border: 2px solid white;
+      margin-left: 100px;
+      margin-top:100px;
+      display: flex; 
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    .pink-form {
+      width: 430px;
+      background-color: #fbd7de;
+      padding: 20px;
+      border-radius: 30px;
+      margin-right: 100px;
+      margin-left: 40px;
+      margin-top:40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .tulisan {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 5px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .form-input {
+      background-color: pink;
+      border: 1px solid white;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      box-sizing: border-box;
+    }
+
+    .form-button {
+      background-color: pink;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 320px;
+    }
+
+    .form-button:hover {
+      background-color: #f48fb1;
+    }
+
+    .kotak-putih-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 50px; 
+      align-items: center;
+      margin-top: 40px;
+      margin-left: 5px;
+      margin-right: 500px;
+    }
+
+    .putih {
+      width: 270px;
+      height: 200px;
+      background-color: white;
+      border-radius: 50px;
+    }
+    .bulatan {
+      width: 50px; 
+      height: 50px; 
+      background-color: pink; 
+      border-radius: 50%; 
+      margin-left: 30px;
+      margin-top:30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+    .teks {
+      font-size: 25px; 
+      color: pink; 
+      font-family: bold; 
+      margin-left: 70px;
+      margin-top: 50px;
+    }
+.tekks {
+  font-size: 25px; 
+  color: pink; 
+  font-style: italic; 
+  margin-top: 4px; 
+  margin-left: 50px;
+}
+.teks1 {
+  font-size: 25px; 
+  color: pink; 
+  font-style: italic; 
+  margin-top: 50px; 
+  margin-left: 50px;
+}
+.footer{
+  background-color: pink;
+  color:white ;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight:bold ;
+  border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+}
+</style>
+<body style="margin:center; height: 100%;">
+    <div class="box">
+<div class="kootak">
+ <div class="bulat"></div>
+    <nav class="navbar">
+        <a href="#home">HOME </a>
+        <a href="#about">ABOUT US</a>
+        <a href="#timpenjual">TIM PENJUAL</a>
+        <a href="#item">ITEM</a>
+        </nav>
+ <h1 class="textq">School <br>Cooperative</h1>
+<p class="sub">Koperasi sekolah (disingkat Kopsis) adalah organisasi <br>ekonomi yang didirikan di lingkungan sekolah dan <br>dikelola oleh siswa dengan bimbingan guru.<br> Kopsis berfungsi sebagai wadah pembelajaran <br>bagi siswa untuk memahami konsep<br> koperasi, kewirausahaan, dan pengelolaan usaha.</p>
+</div>
+</div>
+
+<div class="home" id="home">
+    <img class="poto" src="toko.jpeg">
+    <div class="nol">
+                <p class="satu">Harga yang sangat terjangkau</p>
+                <p class="dua">Kenyamanan dan aksesibilitas</p>
+                <p class="satu">Kualitas barang yang terjamin</p>
+                <p class="dua">Kebutuhan spesifik sekolah</p>
+            </div>
+</div>
+
+<div class="container">
+     
+       <p>TUJUAN<br> <br>Memberikan kemudahan pembelian menyediakan barang barang yang dapat  di akses dengan mudah dengan fasilitas yang lengkap dari harga yang terjangkau dapat memenuhi kebutuhan para siswa siswi dan guru</p>
+     
+       
+         <div class="bagian">
+             <h1 id="about">ABOUT US</h1>
+         
+             
+                 <div class="salma">
+                  <h3>Question Tittle</h3>
+                 </div>
+          <div class="lonjong1">
+              <p>KEBERADAAN KOPERASI?</p></div>
+          <div class="Answer">
+          <h3 style="margin-top: 55px;">Answer</h3></div>
+  
+          <div class="lonjong2">
+              <p>dari awal masuk ke smk lurus sampe<br>sebelum patokan masjid di sebelah kiri<br>ada 3 kantin di pertengahannya ada koperasi</p>
+              </div>
+                </div>
+                  </div>
+                    
+
+<div class="kontainer" id="timpenjual">
+    <!-- Header -->
+    <div class="header">
+        <p class="fontcolor">HANDLE</p>
+        </div>
+
+    <!-- Kartu profil -->
+    <div class="card-container">
+        <div class="profile-card">
+            <div class="circle"></div>
+            <img src="penjual1.jpeg" alt="Ai Nurwahidah">
+            <div class="name">Ai Nurwahidah</div>
+        </div>
+        <div class="profile-card">
+            <div class="circle"></div>
+            <img src="penjual2.jpeg" alt="Deden">
+            <div class="name">Deden</div>
+        </div>
+    </div>
+</div>
+
+   
+<div class="containerr" id="item">
+  <img src="gambar1.jpeg" alt="gambar 1" class="image-item">
+  <img src="gambar2.jpeg" alt="gambar 2" class="image-item">
+  <img src="gambar3.jpeg" alt="gambar 3" class="image-item">
+  <img src="gambar4.jpeg" alt="gambar 4" class="image-item">
+</div>
+  <div class="textt">
+                  FOOD - DRINK - ADMINISTRASI - NEEDS</div>
+
+
+ <div class="kotakk">
+<form class="pink-form">
+<h1 class="tulisan">FILL IN <br> YOUR COMMENT</h1>
+<div class="form-group">
+<label for="name" class="form-label">Name:</label>
+<input type="text" id="name" name="name" class="form-input">
+</div>
+<div class="form-group">
+<label for="email" class="form-label">Email:</label>
+<input type="text" id="email" name="email" class="form-input">
+</div>
+<div class="form-group">
+<label for="comment" class="form-label">Comment:</label>
+<textarea id="comment" name="comment" class="form-input"></textarea>
+      </div>
+      <button type="submit" class="form-button">Submit</button>
+</form>
+<div class="kotak-putih-container">
+<div class="putih">
+<div class="bulatan">
+<div class="teks">Alya</div>
+</div>
+<div class="tekks">Mantep banget</div>
+  </div>
+<div class="putih">
+<div class="bulatan">
+<div class="teks">Atha</div>
+  </div>
+    <div class="tekks">Ada ac, baguss.</div>
+      </div>
+      <div class="putih">
+        <div class="bulatan">
+        <div class="teks">ismul
+        </div>
+        </div>
+        <div class="tekks">pelayanan ramah</div>
+          </div>
+          
+      <div class="putih">
+<div class="bulatan">
+<div class="teks">Salma</div>
+  <div class="tekks">
+    </div>
+      </div>
+       <div class="tekks">makananya enakk
+  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+@copyright kelompok 3 X PPLG 3
+  </div>
+  
+</body>
+</html>
